@@ -1,0 +1,30 @@
+/* color palette from <https://github.com/vuejs/theme> */
+
+
+body {
+  min-height: 100vh;
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: "Moon";
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Moon";
+  src: url("@/assets/fonts/Moon2.0-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MoonBold";
+  src: url("@/assets/fonts/Moon2.0-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "hordes";
+  font-style: normal;
+  font-weight: normal;
+  src: url("@/assets/fonts/Quicksand-Bold.ttf") format('truetype');
+}

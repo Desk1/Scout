@@ -1,0 +1,26 @@
+{
+  "name": "scoutweb",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview --port 5050"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chart.js": "^3.8.0",
+    "connect-history-api-fallback": "^2.0.0",
+    "mongodb": "^4.8.0",
+    "node-cron": "^3.0.1",
+    "vue": "^3.2.33",
+    "vue-router": "^4.1.0",
+    "vuex": "^4.0.2",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "^5.0.6",
+    "vite": "^2.9.5"
+  }
+}
