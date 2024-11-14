@@ -1,0 +1,19 @@
+{
+  "name": "scoutui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "compile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "python compile.py && javascript-obfuscator dist/bundle.js --output dist/script.js && python createuserscript.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "javascript-obfuscator": "^4.0.2"
+  },
+  "dependencies": {
+    "glob": "^9.2.1"
+  }
+}
